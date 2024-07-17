@@ -1,50 +1,50 @@
-
-
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  background-color: #111;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #111;
 }
 
 /* common css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul,ol{
+ul,
+ol {
     list-style-type: none;
 }
 
-.container{
-    width: 1340px;
+.container {
+    width: 1100px;
     margin: 0 auto;
 }
 
 /* nav part style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 57px;
+    padding: 57px 0;
+    align-items: center;
 }
 
-h1{
+h1 {
     font-size: 2.60rem;
     font-weight: 800;
-    color:#E6533C;
+    color: #E6533C;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-around;
     gap: 47px;
@@ -54,23 +54,142 @@ nav ul{
     padding-right: 1rem;
 }
 
-nav ul li:first-child{
+nav ul li:first-child {
     background-color: #E6533C;
     border-radius: 40px;
     padding: 8px 20px;
     margin: 2px;
 }
 
-nav li a{
+nav li a {
     color: #ffffff;
     font-size: 1.3rem;
 }
 
-.Fitness_item i{
+.Fitness_item i {
     display: none;
     color: #fff;
     font-size: 2rem;
 }
+
+/* banner part style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_text {
+    margin-top: 6rem;
+}
+
+.banner_text h1 {
+    font-size: 4.87rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.banner_text span {
+    font-style: italic;
+}
+
+.banner_text p {
+    font-style: italic;
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin: 1.55rem 1.55rem 1.55rem 0;
+}
+
+.common-btn {
+    background-color: #E6533C;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 3.5rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.download_btn {
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 1rem 4rem;
+    border-radius: 3.5rem;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+.banner_img img {
+    width: 100%;
+}
+
+.free_working_video {
+    padding: 17px;
+    padding-left: 0;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0;
+    width: 14rem;
+    background-color: rgba(95, 95, 95, .6);
+    z-index: 1;
+    position: relative;
+    right: -14rem;
+    top: -28rem;
+
+}
+
+
+
+.free_working_video h3 {
+    font-size: 2.50rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.free_working_video,
+.tutorial_box small {
+    color: #ffffff;
+}
+
+.tutorial_box {
+    padding: 17px;
+    padding-top: 0;
+    text-align: center;
+    border-radius: 12px;
+    width: 14rem;
+    background-color: rgba(95, 95, 95, .6);
+    z-index: 1;
+    position: relative;
+    left: -8rem;
+    top: -16rem;
+}
+
+.tutorial_box h3 {
+    font-size: 1.50rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.free_working_video small {
+    color: #ffffff;
+}
+
+.ball_icon {
+    height: 30px;
+    width: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    position: relative;
+    top: 2.50rem;
+}
+
+.ball_text {
+    text-align: start;
+    margin-left: 3rem;
+}
+
+
 
 
 
@@ -78,12 +197,61 @@ nav li a{
 /* responsive style */
 /* for small device */
 @media screen and (max-width: 576px) {
-nav ul{
-    display: none;
-}    
 
-.Fitness_item i{
-    display: block;
-}
+
+    .container {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    /* banner part queary */
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    .banner p br{
+        display: none;
+    }
+
+    .Fitness_item i {
+        display: block;
+    }
+
+    .banner_img {
+        width: 330px;
+        height: 580px;
+    }
+
+    .banner_text {
+        margin-top: 2rem;
+    }
+
+    .banner_text h1 {
+        font-size: 2.50rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .tutorial_box {
+        position: relative;
+        left: -5rem;
+        top: -28rem;
+    }
+    
+
+    .free_working_video {
+
+        position: relative;
+        right: -13 rem;
+        top: -32rem;
+    }
 
 }
