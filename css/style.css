@@ -140,7 +140,6 @@ nav li a {
 }
 
 
-
 .free_working_video h3 {
     font-size: 2.50rem;
     font-weight: bold;
@@ -190,21 +189,21 @@ nav li a {
 }
 
 /* change your habit part style */
-.Habits{
+.Habits {
     text-align: center;
 }
 
-.common_header{
+.common_header {
     margin-bottom: 40px;
 }
 
-.common_header h3{
+.common_header h3 {
     font-size: 2.50rem;
     font-weight: bold;
     color: #fff;
 }
 
-.common_header p{
+.common_header p {
     font-size: 1rem;
     color: rgba(95, 95, 95, .9);
     font-family: "Inter", sans-serif;
@@ -212,34 +211,184 @@ nav li a {
     margin: 6px 0;
 }
 
-.habits_items{
+.habits_items {
     display: flex;
     justify-content: space-around;
 }
 
-.habits_item img{
+.habits_item img {
     height: 200px;
     width: 200px;
     border: 2px solid rgb(192, 192, 192);
     border-radius: 50%;
 }
 
-.habits_texts{
+.habits_texts {
     margin-top: 20px;
 }
 
-.habits_texts h4{
+.habits_texts h4 {
     font-size: 1.50rem;
     font-weight: bold;
     color: #fff;
 }
 
-.habits_texts p{
+.habits_texts p {
     font-size: 1rem;
     color: rgba(95, 95, 95, .9);
     font-family: "Inter", sans-serif;
     font-style: normal;
     margin: 6px 0;
+}
+
+/* Run an Extra Mile Easily */
+.easily_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    border-radius: 16px;
+    background-color: rgb(43, 43, 43);
+    margin: 90px 0;
+}
+
+.easily_text {
+    width: 40%;
+    margin-left: 40px;
+}
+
+.easily_text h3 {
+    width: 80%;
+}
+
+.easily_text>.common_header p {
+    margin: 20px 0;
+}
+
+.easily_img img {
+    height: 250px;
+    width: 350px;
+    border-radius: 16px;
+}
+
+/* Trainings and Exercises */
+.training_context{
+    margin: 100px 0;
+}
+
+.training_first_row, .training_second_row{
+    display: flex;
+}
+
+.first_img{
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.img_color_one{
+    background-color: rgba(80, 228, 228, 0.4);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+
+}
+
+.img_color_one p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 160px;
+}
+
+.img_color_two{
+    background-color: rgba(218, 21, 21, 0.4);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+
+.img_color_two p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 40px;
+    color: #fff;
+}
+
+.img_color_three{
+    background-color: rgba(36, 36, 36, 0.4);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+
+.img_color_three p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 140px;
+    color: #fff;
+}
+
+.img_color_four{
+    background-color: rgba(36, 36, 36, 0.4);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;   
+}
+
+.img_color_four p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px 0  0 260px;
+    color: #fff;
+}
+
+.img_color_five{
+    background-color: rgba(30, 182, 50, 0.4);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+
+.img_color_five p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 150px;
+    color: #fff;
+}
+
+.img_color_six{
+    background-color: rgba(25, 28, 196, 0.4);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+
+.img_color_six p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 150px;
+    color: #fff;
+}
+
+/* BMI Calculator style */
+.bmi_header{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -270,7 +419,7 @@ nav li a {
         gap: 48px;
     }
 
-    .banner p br{
+    .banner p br {
         display: none;
     }
 
@@ -298,13 +447,50 @@ nav li a {
         left: -5rem;
         top: -28rem;
     }
-    
+
 
     .free_working_video {
 
         position: relative;
         right: -13 rem;
         top: -32rem;
+    }
+
+    /* change your habit part style */
+    .habits_items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Run an Extra Mile Easily */
+    .easily_content {
+        flex-direction: column;
+    }
+
+    .easily_text {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .easily_text h3 {
+        width: 90%;
+    }
+
+    .easily_text .common-btn {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+    
+    }
+
+    /* Trainings and Exercises */
+    .s_device{
+        display: none;
+    }
+
+    .first_img{
+       
+        width: 50% !important;
     }
 
 }
