@@ -271,15 +271,16 @@ nav li a {
 }
 
 /* Trainings and Exercises */
-.training_context{
+.training_context {
     margin: 100px 0;
 }
 
-.training_first_row, .training_second_row{
+.training_first_row,
+.training_second_row {
     display: flex;
 }
 
-.first_img{
+.first_img {
     position: relative;
     z-index: 1;
     height: 300px;
@@ -290,7 +291,7 @@ nav li a {
     z-index: -1;
 }
 
-.img_color_one{
+.img_color_one {
     background-color: rgba(80, 228, 228, 0.4);
     position: absolute;
     content: "";
@@ -299,14 +300,14 @@ nav li a {
 
 }
 
-.img_color_one p{
+.img_color_one p {
     font-size: 1rem;
     font-weight: 700;
     margin-left: 40px;
     margin-top: 160px;
 }
 
-.img_color_two{
+.img_color_two {
     background-color: rgba(218, 21, 21, 0.4);
     position: absolute;
     content: "";
@@ -314,14 +315,14 @@ nav li a {
     width: 100%;
 }
 
-.img_color_two p{
+.img_color_two p {
     font-size: 1rem;
     font-weight: 700;
     margin: 40px;
     color: #fff;
 }
 
-.img_color_three{
+.img_color_three {
     background-color: rgba(36, 36, 36, 0.4);
     position: absolute;
     content: "";
@@ -329,7 +330,7 @@ nav li a {
     width: 100%;
 }
 
-.img_color_three p{
+.img_color_three p {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 40px;
@@ -337,22 +338,22 @@ nav li a {
     color: #fff;
 }
 
-.img_color_four{
+.img_color_four {
     background-color: rgba(36, 36, 36, 0.4);
     position: absolute;
     content: "";
     height: 100%;
-    width: 100%;   
+    width: 100%;
 }
 
-.img_color_four p{
+.img_color_four p {
     font-size: 1rem;
     font-weight: 400;
-    margin: 20px 0  0 260px;
+    margin: 20px 0 0 260px;
     color: #fff;
 }
 
-.img_color_five{
+.img_color_five {
     background-color: rgba(30, 182, 50, 0.4);
     position: absolute;
     content: "";
@@ -360,7 +361,7 @@ nav li a {
     width: 100%;
 }
 
-.img_color_five p{
+.img_color_five p {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 40px;
@@ -368,7 +369,7 @@ nav li a {
     color: #fff;
 }
 
-.img_color_six{
+.img_color_six {
     background-color: rgba(25, 28, 196, 0.4);
     position: absolute;
     content: "";
@@ -376,7 +377,7 @@ nav li a {
     width: 100%;
 }
 
-.img_color_six p{
+.img_color_six p {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 40px;
@@ -385,66 +386,64 @@ nav li a {
 }
 
 /* BMI Calculator style */
-.bmi_header{
+.bmi_header {
     display: flex;
     justify-content: center;
 }
 
-.bmi_content{
+.bmi_content {
     background-color: #3d3c3c;
     padding: 52px 0;
 }
 
-.bmi_items{
+.bmi_items {
     margin-bottom: 30px;
     display: flex;
     gap: 170px;
 }
 
-.calculator{
+.calculator {
     width: 30%;
 }
-.calculator h4{
+
+.calculator h4 {
     font-size: 28px;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 50px;
 }
 
-.bmi_items table{
+.bmi_items table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.bmi_items th{
+.bmi_items th {
     border: 1px solid #adacac;
     text-align: start;
     padding: 10px;
     color: #fff;
-    
     font-size: 16px;
 }
-.bmi_items td{
+
+.bmi_items td {
     border: 1px solid #adacac;
     padding: 10px;
     color: #868080;
     font-size: 14px;
 }
 
-.calculat{
-    height: 500px;
-    margin-bottom: 50px;
-    width: 100px;
+.calculat {
     width: 50%;
 }
 
-.calculat_hader h4{
+.calculat_hader h4 {
     font-size: 28px;
     font-weight: 600;
     color: #ffffff;
 }
 
-.calculat_hader p{
+.calculat_hader p {
     padding: 10px;
     color: #868080;
     font-size: 14px;
@@ -458,14 +457,14 @@ nav li a {
     margin-bottom: 10px;
 }
 
-.calculat_input input{
+.calculat_input input {
     padding: 13px;
     border-radius: 8px;
     background-color: #494949;
     border: none;
 }
 
-.calculat_input select{
+.calculat_input select {
     padding: 13px;
     border-radius: 8px;
     background-color: #494949;
@@ -473,11 +472,11 @@ nav li a {
     color: #868080;
 }
 
-.calculat_input select option{
+.calculat_input select option {
     color: #868080;
 }
 
-.calculat_extra_select select{
+.calculat_extra_select select {
     padding: 13px;
     border-radius: 8px;
     background-color: #494949;
@@ -485,6 +484,109 @@ nav li a {
     margin-bottom: 34px;
     color: #868080;
 }
+
+/* Meet Our team part style */
+
+.team>.common_header {
+    text-align: center;
+    width: 700px;
+    margin: 88px auto 58px;
+}
+
+.team_items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.team_img img {
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+}
+
+.team_img {
+    position: relative;
+}
+
+.team_trainer {
+    content: " ";
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.team_img h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.team_img p {
+    font-size: 14px;
+    color: #c5b8b8;
+}
+
+/* footer part style */
+.footer_content {
+    background-color: #191919;
+    margin-top: 88px;
+    padding: 66px 0;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer_head {
+    width: 46%;
+}
+
+.footer_head p {
+    font-size: 14px;
+    color: #868080;
+    width: 80%;
+    padding-top: 14px;
+}
+
+.footer_get_started h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.get_started_items ul li {
+    padding-top: 20px;
+}
+
+.get_started_items ul li a {
+    color: #868080;
+    font-size: 23px;
+
+}
+
+.footer_get_started {
+    width: 27%;
+}
+
+.footer_content hr {
+    margin: 79px auto 36px;
+    border: none;
+    border: 1px solid #868686;
+}
+
+.footer_content .right_pera p {
+    font-size: 20px;
+    color: #868080;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-top: 14px; */
+}
+
+
 
 
 
@@ -576,32 +678,71 @@ nav li a {
         padding-top: 1rem;
         padding-bottom: 1rem;
         width: 100%;
-    
+
     }
 
     /* Trainings and Exercises */
-    .s_device{
+    .s_device {
         display: none;
     }
 
-    .first_img{
-       
+    .first_img {
+
         width: 50% !important;
     }
 
     /* BMI Calculator style */
-    .bmi_items{
+    .bmi_items {
         display: flex;
         flex-direction: column;
         gap: 58px;
     }
 
-    .calculator{
+    .calculator {
         width: 90%;
     }
 
-    .calculat{
+    .calculat {
         width: 100%;
+    }
+
+    /* Meet Our team part style */
+
+    .team>.common_header {
+        text-align: center;
+        width: 100%;
+        margin: 88px auto 58px;
+    }
+
+    .team>.common_header p {
+        width: 70%;
+        text-align: center;
+        margin: 10px auto 0;
+
+    }
+
+    .team_items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer part style */
+    .footer_content {
+        background-color: #191919;
+        margin-top: 88px;
+        padding: 66px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer_head {
+        width: 100%;
+    }
+
+    .footer_get_started {
+        width: 100%;
+        margin-top: 30px;
     }
 
 }
