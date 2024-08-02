@@ -174,14 +174,68 @@
             </div>
         </section>
         <!-- BMI Calculator part -->
-         <section class="bmi container">
+        <section class="bmi">
             <div class="bmi_header">
                 <div class="common_header">
                     <h3>BMI Calculator</h3>
                     <p>Body Mass Index is a simple calculation using a person's height and weight.</p>
                 </div>
             </div>
-         </section>
+            <div class="bmi_content">
+                <div class="bmi_items container">
+                    <div class="calculator">
+                        <h4>BMI Calculator Chart</h4>
+                        <table>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="calculat">
+                        <div class="calculat_hader">
+                            <h4>Calculate your BMI</h4>
+                            <p>Knowing your BMI helps assess if you're underweight, normal weight, overweight, or obese
+                            </p>
+                        </div>
+                        <form action="">
+                            <div class="calculat_input">
+                                <input type="text" placeholder="Height/cm">
+                                <input type="text" placeholder="Weight/kg">
+                                <input type="number" placeholder="Age">
+                                <select name="sex" id="">
+                                    <option value="">sex</option>
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                </select>
+                            </div>
+                            <div class="calculat_extra_select">
+                                <select name="sex" id="" style="width: 100%;">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <button class="common-btn">Calculate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 

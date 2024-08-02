@@ -139,7 +139,6 @@ nav li a {
 
 }
 
-
 .free_working_video h3 {
     font-size: 2.50rem;
     font-weight: bold;
@@ -391,6 +390,103 @@ nav li a {
     justify-content: center;
 }
 
+.bmi_content{
+    background-color: #3d3c3c;
+    padding: 52px 0;
+}
+
+.bmi_items{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 170px;
+}
+
+.calculator{
+    width: 30%;
+}
+.calculator h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.bmi_items table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi_items th{
+    border: 1px solid #adacac;
+    text-align: start;
+    padding: 10px;
+    color: #fff;
+    
+    font-size: 16px;
+}
+.bmi_items td{
+    border: 1px solid #adacac;
+    padding: 10px;
+    color: #868080;
+    font-size: 14px;
+}
+
+.calculat{
+    height: 500px;
+    margin-bottom: 50px;
+    width: 100px;
+    width: 50%;
+}
+
+.calculat_hader h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.calculat_hader p{
+    padding: 10px;
+    color: #868080;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.calculat_input {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.calculat_input input{
+    padding: 13px;
+    border-radius: 8px;
+    background-color: #494949;
+    border: none;
+}
+
+.calculat_input select{
+    padding: 13px;
+    border-radius: 8px;
+    background-color: #494949;
+    border: none;
+    color: #868080;
+}
+
+.calculat_input select option{
+    color: #868080;
+}
+
+.calculat_extra_select select{
+    padding: 13px;
+    border-radius: 8px;
+    background-color: #494949;
+    border: none;
+    margin-bottom: 34px;
+    color: #868080;
+}
+
+
 
 
 
@@ -491,6 +587,21 @@ nav li a {
     .first_img{
        
         width: 50% !important;
+    }
+
+    /* BMI Calculator style */
+    .bmi_items{
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
+    }
+
+    .calculator{
+        width: 90%;
+    }
+
+    .calculat{
+        width: 100%;
     }
 
 }
