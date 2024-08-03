@@ -1,7 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -112,12 +111,15 @@ nav li a {
 
 .download_btn {
     background-color: #000;
-    border: 1px solid #000;
+    border: 1px solid #bbbaba;
     padding: 1rem 4rem;
     border-radius: 3.5rem;
     color: #fff;
     font-size: 1rem;
+}
 
+.banner_img {
+    height: 680px;
 }
 
 .banner_img img {
@@ -136,7 +138,6 @@ nav li a {
     position: relative;
     right: -14rem;
     top: -28rem;
-
 }
 
 .free_working_video h3 {
@@ -218,7 +219,7 @@ nav li a {
 .habits_item img {
     height: 200px;
     width: 200px;
-    border: 2px solid rgb(192, 192, 192);
+    border: 2px solid rgb(73, 70, 70);
     border-radius: 50%;
 }
 
@@ -297,7 +298,6 @@ nav li a {
     content: "";
     height: 100%;
     width: 100%;
-
 }
 
 .img_color_one p {
@@ -534,7 +534,7 @@ nav li a {
 .footer_content {
     background-color: #191919;
     margin-top: 88px;
-    padding: 66px 0;
+    padding: 66px 0 30px;
 }
 
 .footer {
@@ -583,13 +583,11 @@ nav li a {
     color: #868080;
     margin: 0 auto;
     text-align: center;
-    /* padding-top: 14px; */
 }
 
 
 /* Unique part style */
-
-.workout_plans{
+.workout_plans {
     padding: 50px;
     text-align: center;
     background-color: #191919;
@@ -641,16 +639,9 @@ nav li a {
     margin-bottom: 15px;
 }
 
-
-
-
-
-
-/* responsive style */
+/*----------------------------- responsive style --------------------------*/
 /* for small device */
 @media screen and (max-width: 576px) {
-
-
     .container {
         width: auto;
         margin: 0 auto;
@@ -661,7 +652,6 @@ nav li a {
     }
 
     /* banner part queary */
-
     .banner {
         flex-direction: column;
         align-items: center;
@@ -677,7 +667,7 @@ nav li a {
         display: block;
     }
 
-    .banner_btn{
+    .banner_btn {
         display: flex;
         gap: 5px;
     }
@@ -703,7 +693,6 @@ nav li a {
         top: -28rem;
     }
 
-
     .free_working_video {
         position: relative;
         right: -13 rem;
@@ -714,6 +703,19 @@ nav li a {
     .habits_items {
         display: flex;
         flex-direction: column;
+    }
+
+    .Habits p br {
+        display: none;
+    }
+
+    .habits_texts {
+        margin-bottom: 20px;
+    }
+
+    .habits_texts p {
+        width: 50%;
+        margin: 0 auto;
     }
 
     /* Run an Extra Mile Easily */
@@ -734,7 +736,6 @@ nav li a {
         padding-top: 1rem;
         padding-bottom: 1rem;
         width: 100%;
-
     }
 
     /* Trainings and Exercises */
@@ -763,7 +764,6 @@ nav li a {
     }
 
     /* Meet Our team part style */
-
     .team>.common_header {
         text-align: center;
         width: 100%;
@@ -774,7 +774,6 @@ nav li a {
         width: 70%;
         text-align: center;
         margin: 10px auto 0;
-
     }
 
     .team_items {
@@ -802,19 +801,17 @@ nav li a {
     }
 
     /* Unique part style */
-
-    .workout_plans{
+    .workout_plans {
         margin-top: 88px;
     }
 
+    .plan_content {
+        flex-direction: column;
 
-.plan_content {
-    flex-direction: column;
+    }
 
-}
-
-.plan_item {
-    width: 100%;
-}
+    .plan_item {
+        width: 100%;
+    }
 
 }
