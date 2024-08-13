@@ -89,7 +89,10 @@ nav li a {
 
 .banner_text span {
     font-style: italic;
+    font-family: "Miama";
+    src: url("Font/Miama.ttf") format("truetype");
 }
+
 
 .banner_text p {
     font-style: italic;
