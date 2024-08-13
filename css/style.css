@@ -224,7 +224,7 @@ nav li a {
 
 .habits_items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between !important;
 }
 
 .habits_item img {
@@ -728,6 +728,10 @@ nav li a {
     .habits_texts p {
         width: 50%;
         margin: 0 auto;
+    }
+
+    .habits_item{
+        margin-right: 0 !important;
     }
 
     /* Run an Extra Mile Easily */
